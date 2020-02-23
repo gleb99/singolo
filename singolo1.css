@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+                     /* Header */
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 89px;
+  background-color: #2d303a;
+}
+.header__logo {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 590;
+  text-transform: uppercase;
+  margin-left: 39.8px;
+  margin-top: 39px;
+  line-height: 8px;
+}
+.header__star {
+  color: #f06c64;
+}
+nav {
+  margin-right: 40px;
+}
+nav a {
+  font-size: 12px;
+  line-height: 7px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 550;
+  text-align: left;
+}
+.nav:hover {
+  text-decoration: underline;
+}
+.main__left:hover {
+  background: white;
+  border-radius: 11px;
+}
+.main__right:hover {
+  background: white;
+  border-radius: 11px;
+}
+.header__nav_color_red {
+  color: #f06c64;
+}
+.header__nav_point {
+  color: #494e62;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+.header__line {
+  width: 100%;
+  height: 6px;
+  margin-bottom: 0px;
+  background: #323746;
+}
+
+                    /* Main */
+.main__div {
+  height: 594px;
+  background: #f06c64;
+  position: relative;
+}
+.main__line {
+  height: 6px;
+  background: #ea676b;
+}
+.main__vertical {
+  position: absolute;
+  left: 111px;
+  bottom: 31px;
+}
+.main__horisontal {
+  position: absolute;
+  right: 79px;
+  top: 69px;
+}
+.main__left {
+  position: absolute;
+  left: 43px;
+  top: 281px;
+}
+.main__right {
+  position: absolute;
+  right: 39px;
+  top: 281px;
+}
+                    /* Footer */
+.footer__div {
+  background: #f2f2f2;
+  height: 494px;
+}
+.footer__line {
+  background: #ffffff;
+  height: 6px;
+}
+.footer__h1 {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+  margin-left: 42px;
+  margin-top: 67px;
+  /* letter-spacing: .0009px; */
+}
+.footer__p {
+width: 940px;
+height: 57px;
+font-size: 16.5px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+display: inline-block ;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 20px;
+letter-spacing: .42px;
+}
+.footer__p span {
+  letter-spacing:.584px;
+}
+.footer_cards {
+  margin-left: 40px;
+            margin-right: 22px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 33%;
+  display: inline-flex;
+  margin-right: 3.2px;
+}
+.img {
+  width: 59px;
+  height: 59px;
+  border-radius: 29px;
+  margin-right: 22px;
+  border: 2px solid #666d89;
+}
+.image {
+  margin-top: 10px;
+  margin-left: 14px;
+}
+.pen {
+  margin-top: 11px;
+  margin-left: 11px;
+}
+.heart {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.phone {
+  margin-top: 11px;
+  margin-left: 15px; 
+}
+.bubble {
+  margin-top: 14px;
+  margin-left: 13px; 
+}
+.star {
+  margin-top: 11px;
+  margin-left: 10px; 
+}
+.txt h2 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 9px;
+  word-spacing: 1.5px;
+}
+.txt p {
+  width: 219px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 29px;
+  letter-spacing: .01px;
+}
+
