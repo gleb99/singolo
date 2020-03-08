@@ -19,20 +19,20 @@ body{
 }
 
 /* Singolo 3 */
-  .wrapper {
+  .wrapper3 {
     margin: 0 40px 0 39px;
   }
   h2{
     margin: 0;
   }
   
-  .main {
+  .main3 {
     max-width: 1020px;
     margin: 0 auto;
     padding-top: 68px;
     background-color: #f06c64;
   }
-  .main p {
+  .main3 p {
     font-size: 1.8rem;
     line-height: 31px;
     color: #f0d8d9;
